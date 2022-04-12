@@ -27,4 +27,28 @@
  ![image](https://user-images.githubusercontent.com/103022040/162944146-c6a8645d-e091-4460-a7cd-bda16e24c02e.png)
 - #### than build using docker build command the file will execute stepwise
 ![image](https://user-images.githubusercontent.com/103022040/162944524-8e54ca01-b708-4397-8252-197ebd678d3e.png)
+## Managing port
+- #### logged into docker hub 
+![image](https://user-images.githubusercontent.com/103022040/162949102-3628e0a6-9d51-4f39-9874-81ded48fb4b7.png)
+- #### Next, let’s browse and find the Jenkins image 
+![image](https://user-images.githubusercontent.com/103022040/162949730-e35b56f1-2f77-4a1c-af51-542015fbe91e.png)
+- #### see the Docker pull command. This will be used to download the Jenkins Image onto the local Ubuntu server.
+![manage port second step](https://user-images.githubusercontent.com/103022040/162950235-ffac7b6d-7b6f-428e-8730-7e24a30885c2.PNG)
+- #### Now go to the Ubuntu server and run the command 
+![image](https://user-images.githubusercontent.com/103022040/162951565-1267478c-3612-4cdf-9c9b-f20eea309d04.png)
+- #### To understand what ports are exposed by the container, you should use the Docker inspect command to inspect the image.
+![image](https://user-images.githubusercontent.com/103022040/162952091-930dd3b4-947b-40f1-a1a8-23d4b424180a.png)
+## Docker Network
+- #### This command can be used to list all the networks associated with Docker on the host.
+![image](https://user-images.githubusercontent.com/103022040/162958666-f50f18f2-c90e-4c6c-b0af-83a01c717307.png)
+- #### The command will output all the details about the network.
+![image](https://user-images.githubusercontent.com/103022040/162960066-ab5799a2-12df-4560-805b-7fcfca0cdcd6.png)
+- #### One can create a network in Docker before launching containers. This can be done with the following command
+![image](https://user-images.githubusercontent.com/103022040/162960412-8849288e-64fc-4b68-ba24-b76e3ae7d49e.png)
+- #### we can inspect details about our new network just created
+![image](https://user-images.githubusercontent.com/103022040/162960755-acd5f654-22ac-4cbb-8c58-949f6c02ac0f.png)
+
+
+
+
 
