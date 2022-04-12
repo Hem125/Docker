@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/103022040/162896996-a32d2d1f-dbdc-4ec1-a0b4-906ccba617ed.png)
 - #### After installation we can check the docker version
 ![image](https://user-images.githubusercontent.com/103022040/162897960-bbf099b0-97d4-42e0-8ad5-341f3f57ef04.png)
--#### Go to docker hub and sign in , in case you dont have account sign up
+- #### Go to docker hub and sign in , in case you dont have account sign up
 ![image](https://user-images.githubusercontent.com/103022040/162900493-b5f6b06d-4777-4736-9525-e1033628f433.png)
 ##  Docker Image
 - #### to download a Docker image called CentOS 7, issue the following command
