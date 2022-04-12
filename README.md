@@ -15,4 +15,16 @@
 ![image](https://user-images.githubusercontent.com/103022040/162905465-f7528c0a-ace9-42b0-9606-dbad9318fd9e.png)
 - #### use the below command to delete or remove docker image
 ![image](https://user-images.githubusercontent.com/103022040/162906041-d954c65c-98e5-4c1a-8070-c0f21350f950.png)
+## Run a Docker Container in Ubuntu
+- #### To run the containers again, first you need to get the Container ID or Name by running the following command
+![image](https://user-images.githubusercontent.com/103022040/162923275-d46225b5-ad9d-471b-a0cc-607bb62fca19.png)
+- #### Once the Container ID or Name has been acquired, you can start the container using the following command:
+![image](https://user-images.githubusercontent.com/103022040/162923845-87e67c3a-269b-4bed-9352-dbbd74fa491e.png)
+- #### To stop the running container run docker stop command by specifying the Container ID or Name.
+![image](https://user-images.githubusercontent.com/103022040/162924356-328574eb-fc91-4482-9604-1ff1791cd83a.png)
+## DockerFile
+- #### create a file using vi editor and cat command to display its content
+ ![image](https://user-images.githubusercontent.com/103022040/162944146-c6a8645d-e091-4460-a7cd-bda16e24c02e.png)
+- #### than build using docker build command the file will execute stepwise
+![image](https://user-images.githubusercontent.com/103022040/162944524-8e54ca01-b708-4397-8252-197ebd678d3e.png)
 
