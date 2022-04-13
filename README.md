@@ -47,7 +47,17 @@
 ![image](https://user-images.githubusercontent.com/103022040/162960412-8849288e-64fc-4b68-ba24-b76e3ae7d49e.png)
 - #### we can inspect details about our new network just created
 ![image](https://user-images.githubusercontent.com/103022040/162960755-acd5f654-22ac-4cbb-8c58-949f6c02ac0f.png)
-
+## Docker private repository
+- ####  Use the Docker run command to download the private registry. This can be done using the following command.
+![image](https://user-images.githubusercontent.com/103022040/163169535-c8861596-3b66-4711-8ff0-dfce0c075f4f.png)
+- #### Let’s do a docker ps to see that the registry container is indeed running.
+![image](https://user-images.githubusercontent.com/103022040/163169884-5ef13202-80db-49f8-95ff-e222ab0d55a6.png)
+- ####  In our example, since we have the centos image available locally, we are going to tag it to our private repository and add a tag name of centos.
+![image](https://user-images.githubusercontent.com/103022040/163170735-9eae9e8e-7073-4866-8a71-86f7cbb68d09.png)
+- #### Now let’s delete the local images we have for centos using the docker rmi commands. We can then download the required centos image from our private repository
+![image](https://user-images.githubusercontent.com/103022040/163171695-aa28ec7b-15ff-4728-b721-477754593a59.png)
+- ##### Now that we don’t have any centos images on our local machine, we can now use the following Docker pull command to pull centos image from our private repo
+![image](https://user-images.githubusercontent.com/103022040/163172451-130fde8f-17dc-4add-8a0a-adb86472d87f.png)
 
 
 
