@@ -66,6 +66,18 @@
 ![image](https://user-images.githubusercontent.com/103022040/163757966-d51e6847-f418-4d65-afcf-de79bfdf5fc2.png)
 - #### Test your installation
 ![image](https://user-images.githubusercontent.com/103022040/163758272-ee9992e9-9fa3-42b0-8f12-257673a75837.png)
+### How to create docker compose file
+- #### To create a docker compose file first make a file having .yml extension 
+![image](https://user-images.githubusercontent.com/103022040/163762460-75f61822-1343-429a-96c5-b542383b5fe7.png)
+- edit file using vi editor 
+![image](https://user-images.githubusercontent.com/103022040/163769897-70afb6a5-593a-47f2-819d-f16f7438323c.png)
+- #### Create docker compose using following command
+![image](https://user-images.githubusercontent.com/103022040/163770129-b383f9c1-5cef-4801-a1ce-265934ec3ec6.png)
+- #### Adding multiple service in docker compose file
+![image](https://user-images.githubusercontent.com/103022040/163771471-f85ac84e-d8a2-49e2-8623-d53a77347b59.png)
+- #### If we create docker compose it will start from new service
+![image](https://user-images.githubusercontent.com/103022040/163771926-f14435c6-716c-4b39-9526-0c7080471e11.png)
+
 
 
 
